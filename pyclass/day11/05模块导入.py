@@ -28,10 +28,10 @@ from 模块名 import 功能名 as 别名
 # sum1(2, 1)
 # # acc(1, 2)
 
-import day11.mypackage.my_module as md
+import pyclass.day11.mypackage.my_module as md
 
 md.print_info()
 
-from day11.mypackage import *
+from pyclass.day11.mypackage import *
 
 my_module.print_info()

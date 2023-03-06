@@ -26,4 +26,4 @@ def sub_file_num(path):
     return file_num, dir_num
 
 
-print(sub_file_num('./'))
+print(sub_file_num('/'))
