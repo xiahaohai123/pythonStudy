@@ -7,6 +7,7 @@ os.system("")
 @curry
 def color_print(color_code, mess: str):
     print('\033[' + color_code + mess + '\033[0m')
+    return mess
 
 
 print_red = color_print("91m")
